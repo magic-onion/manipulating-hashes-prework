@@ -7,7 +7,11 @@ def second_challenge
   }
 
   #code your solution here!
-groceries.values
-  
-
+items = groceries.values
+final_list = []
+i = 0 
+while i < items.length
+  final_list << items[1]
+end
+final_list
 end
