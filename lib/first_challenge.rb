@@ -19,6 +19,10 @@ contacts.each do |person, data|
     value.each do |att1, value1|
       if value1 == "strawberry"
         value1.delete
+      end
+    end
+  end
+end
   #remember to return your newly altered contacts hash!
   contacts
 end
