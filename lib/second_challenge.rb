@@ -11,7 +11,7 @@ items = groceries.values
 final_list = []
 i = 0 
 while i < items.length
-  final_list << items[1]
+  final_list << items[i][i]
 end
 final_list
 end
